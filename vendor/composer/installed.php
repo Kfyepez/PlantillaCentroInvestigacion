@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.2.4',
-        'version' => '9.2.4.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'e6cb4f30d6c811527e9c282bb74284ff0131f8af',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -69,6 +69,15 @@
             'replaced' => array(
                 0 => '9.2.4',
             ),
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.0.1',
+            'version' => '3.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'reference' => '3.0.1',
+            'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
@@ -629,12 +638,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '9.2.4',
-            'version' => '9.2.4.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'e6cb4f30d6c811527e9c282bb74284ff0131f8af',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
