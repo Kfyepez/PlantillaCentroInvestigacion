@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e6cb4f30d6c811527e9c282bb74284ff0131f8af',
+        'reference' => '5bb6a5f4a7d4c3cb628f1568a6add314ac067e2f',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -84,6 +84,15 @@
             'replaced' => array(
                 0 => '9.2.4',
             ),
+        ),
+        'drupal/asset_injector' => array(
+            'pretty_version' => '2.8.0',
+            'version' => '2.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/asset_injector',
+            'aliases' => array(),
+            'reference' => '8.x-2.8',
+            'dev_requirement' => false,
         ),
         'drupal/automated_cron' => array(
             'dev_requirement' => false,
@@ -517,6 +526,15 @@
                 0 => '9.2.4',
             ),
         ),
+        'drupal/layout_builder_component_attributes' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/layout_builder_component_attributes',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/layout_discovery' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -643,7 +661,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e6cb4f30d6c811527e9c282bb74284ff0131f8af',
+            'reference' => '5bb6a5f4a7d4c3cb628f1568a6add314ac067e2f',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -878,6 +896,15 @@
             'install_path' => __DIR__ . '/../masterminds/html5',
             'aliases' => array(),
             'reference' => '9227822783c75406cfe400984b2f095cdf03d417',
+            'dev_requirement' => false,
+        ),
+        'neilime/php-css-lint' => array(
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../neilime/php-css-lint',
+            'aliases' => array(),
+            'reference' => '5dc9dd1d3238d29a9ff210cd7d934cfee00e5e96',
             'dev_requirement' => false,
         ),
         'pear/archive_tar' => array(
